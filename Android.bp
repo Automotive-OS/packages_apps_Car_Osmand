@@ -1,0 +1,14 @@
+android_app_import {
+    name: "Osmand",
+    apk: "Osmand.apk",
+    optional_uses_libs: [
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+    ],
+    overrides: [
+	"CarMapsPlaceholder",
+    ],
+    privileged: true,
+    proprietary: true,
+    certificate: "platform"
+}
